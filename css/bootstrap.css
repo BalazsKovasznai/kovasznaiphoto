@@ -208,16 +208,41 @@ textarea {
   background-image: none;
 }
 a {
-  color: #428bca;
+  color: #b3b4b6;
   text-decoration: none;
 }
-a:hover,
-a:focus {
-  color: #2a6496;
+.link_btn1:hover,
+.link_btn1:focus {
+  color: #fafafa;
+  text-decoration: underline;
+}
+.link_btn1:hover,
+.link_btn1:focus {
+  color: #fafafa;
+  text-decoration: underline;
+}
+.link_btn2:hover,
+.link_btn2:focus {
+  color: #0479d8;
+  text-decoration: underline;
+}
+.link_btn3:hover,
+.link_btn3:focus {
+  color:rgb(255, 174, 0);
+  text-decoration: underline;
+}
+.link_btn4:hover,
+.link_btn4:focus {
+  color: #cacbcc;
+  text-decoration: underline;
+}
+.link_btn5:hover,
+.link_btn5:focus {
+  color: #d80404;
   text-decoration: underline;
 }
 a:focus {
-  outline: thin dotted #333;
+  outline: thin dotted rgb(0, 0, 0);
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
