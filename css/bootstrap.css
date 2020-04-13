@@ -223,12 +223,12 @@ a {
 }
 .link_btn2:hover,
 .link_btn2:focus {
-  color: #0479d8;
+  color: #73b6ee;
   text-decoration: underline;
 }
 .link_btn3:hover,
 .link_btn3:focus {
-  color:rgb(255, 174, 0);
+  color:rgb(245, 186, 59);
   text-decoration: underline;
 }
 .link_btn4:hover,
@@ -238,7 +238,7 @@ a {
 }
 .link_btn5:hover,
 .link_btn5:focus {
-  color: #d80404;
+  color: #fc3d3d;
   text-decoration: underline;
 }
 a:focus {
