@@ -1,17 +1,26 @@
 import React from "react"
 import '../../static/css/styles.css';
 import '../../static/css/bootstrap.css';
-/*import './bootsrap.js';
-import './jquery.js';
-import './jquery.mixitup.min.js';
-import './jquery.validate.min.js';
-import './jquery.vegas.js';
-import './jquery-scrolltofixed-min.js';
-import './script.js';*/
-/*import  Helmet  from "react-helmet"*/
+/*import '../../static/js/bootsrap.js';
+import '../../static/js/jquery.js';
+import '../../static/js/jquery.mixitup.min.js';
+import '../../static/js/jquery.validate.min.js';
+import '../../static/js/jquery.vegas.js';
+import '../../static/js/jquery-scrolltofixed-min.js';
+import '../../static/js/script.js';*/
+import  {Helmet}  from "react-helmet"
 
 export default () => (
  <div>
+   <Helmet>
+   <script src="../../static/js/jquery.js" type="text/javascript"></script>
+   <script src="../../static/js/bootsrap.js"></script>
+   <script src="../../static/js/jquery.mixitup.min.js"></script>
+   <script src="../../static/js/jquery.validate.min.js"></script>
+   <script src="../../static/js/jquery.vegas.js"></script>
+   <script src="../../static/js/jquery-scrolltofixed-min.js"></script>
+   <script src="../../static/js/script.js"></script>
+   
   <meta charSet="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content />
@@ -23,6 +32,7 @@ export default () => (
   <link href="css/slidefolio.css" rel="stylesheet" />
   {/* Font Awesome */}
   <link href="https://use.fontawesome.com//releases/v5.4.1/css/all.css" rel="stylesheet" />
+  </Helmet>
   {/* Header Area */}
   <div id="top" className="header">
     <div className="vert-text">

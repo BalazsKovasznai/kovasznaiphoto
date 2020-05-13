@@ -25,8 +25,6 @@ cursor:pointer;
 	z-index: 0;
 }
 
-}
-
 ul{
   display: flex;
 }
@@ -96,11 +94,7 @@ ul li:nth-child(5):hover:before{
 
 
 
-.vegas-overlay {
-	background: transparent url(overlays/01.png);
-	opacity: 0.5;
-	z-index: -1;
-}
+
 
 .vegas-background {
     max-width: none !important; /* counteracts global img modification by twitter bootstrap library */
@@ -149,7 +143,7 @@ border-radius:0px !important;
 .navbar-new .navbar-brand {
   color: #f1f1f1;
 }
-}
+
 .navbar-new .navbar-text {
   color: #f1f1f1;
 }
@@ -431,7 +425,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', en
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
-}
+
 
 #team {
 background:none repeat scroll 0 0 rgba(0, 0, 0, 0.79);
