@@ -2,6 +2,7 @@ import React from "react"
 import '../../static/css/styles.css';
 import '../../static/css/bootstrap.css';
 import  {Helmet}  from "react-helmet"
+import {WhatIDo} from "../components";
 
 export default () => (
  <div>
@@ -71,55 +72,7 @@ export default () => (
     </div>
   </div>
   {/* /About */}
-  {/* Services */}
-  <div id="services" className="services">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-4 col-md-offset-4 text-center">
-          <h2>What I do</h2>
-          <hr />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-md-4 text-center">
-          <div className="service-item">
-            <i className="service-icon fa fa-camera-retro fa-3x" />
-            <h3>Portrait</h3>
-            <hr />
-            <p /><h4>Every kind of human depiction:</h4>
-            <div>Portrait</div>
-            <div>Glamour</div>
-            <div>Nude</div>
-            <div>Fashion</div>
-            <p />
-          </div>
-        </div>
-        <div className="col-md-4 text-center">
-          <div className="service-item">
-            <i className="service-icon fa fa-camera fa-3x" />
-            <h3>Sport</h3><hr />
-            <p /><h4>Every kind of sports:</h4>
-            <div>Action</div>
-            <div>Motorsports</div>
-            <div>Teamsports</div>
-            <div>Individual Sports</div><p />
-          </div>
-        </div>
-        <div className="col-md-4 text-center">
-          <div className="service-item">
-            <i className="service-icon fa fa-globe fa-3x" />
-            <h3>Event</h3><hr />
-            <p /><h4>Every kind of events:</h4>
-            <div>Concerts</div>
-            <div>Teambuildings</div>
-            <div>Sport events</div>
-            <div>Family events</div><p />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* /Services */}
+  <WhatIDo/>
   {/* Portfolio */}
   <div id="portfolio" className="portfolio">
     <div className="container">
