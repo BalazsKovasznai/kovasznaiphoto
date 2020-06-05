@@ -3,9 +3,13 @@ import '../../static/css/styles.css';
 import '../../static/css/bootstrap.css';
 import  {Helmet}  from "react-helmet"
 <<<<<<< HEAD
+<<<<<<< HEAD
 import {WhatIDo} from "../components";
 =======
 import {WhatIDo, Header,Navbar} from "../components";
+=======
+import {WhatIDo, Header,Navbar,AboutMe,Footer} from "../components";
+>>>>>>> components
 
 >>>>>>> Navbar,Header to components
 
@@ -26,19 +30,7 @@ export default () => (
   </Helmet>
   <Header/>
   <Navbar/>
-  
-  {/* About */}
-  <div id="about" className="about_us">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-8 col-md-offset-2 text-center">
-          <h2>About me</h2>
-          <p className="lead">My name is Balázs Kovásznai. For years I rode bmx and did acrobatics,i was into photography in that time too,but after three knee surgeries at the age of 18 I  had to stop bmx and acrobatics so that was the time when I really started to take photography more serious. Since that time i tried lot kind of photography, but generally I do not target one specific genre, my primary aim is the expression and enhancement of women’s beauty. The other aim is to show the awesomeness and beautifulness of the action sports to people who are not involved in the actionsports world.In the following galleries the photos are collected not according to their genre either, which would be difficult to do so, as in most of the cases they overlap each other. As an introduction these few lines are fair enough, the pictures will reveal much more about my work. If you like them, I happily take requests to make similar photos. Have fun and enjoy thumbing through the galleries and viewing my photos! </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* /About */}
+  <AboutMe/>
   <WhatIDo/>
   {/* Portfolio */}
   <div id="portfolio" className="portfolio">
@@ -236,26 +228,7 @@ export default () => (
       </div>
     </div>
   </div>
-  {/* /Portfolio */}
-  {/* Contact */}
-  <div id="contact">
-    <div className="container">
-      <div className="row">
-        <h4><em> © Kovasznai Photo</em></h4>
-        {/* contact form starts */}
-        {/* contact form ends */}		
-        {/* /Contact */}
-        {/* Footer */}
-        {/* /Footer */}
-        {/* Bootstrap core JavaScript */}
-        {/* Placed at the end of the document so the pages load faster */}
-        {/* Slideshow Background  */}
-        {/* /Slideshow Background */}
-        {/* Mixitup : Grid */}
-        {/* /Mixitup : Grid */}	
-        {/* Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up */}
-        {/* Navbar */}
-        {/* /Navbar*/}
-      </div></div></div></div>
+  <Footer/>
+  </div>
 
 )
