@@ -1,6 +1,5 @@
 import React from 'react';
 
-
    export default () => (
     <div id="top" className="header">
     <div className="vert-text">

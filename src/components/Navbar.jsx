@@ -1,6 +1,5 @@
 import React from 'react';
 
-
    export default () => (
     <div id="nav">
     <nav className="navbar navbar-new" role="navigation">

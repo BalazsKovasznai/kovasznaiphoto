@@ -5,6 +5,7 @@ export {WhatIDo};
 =======
 import Header from "./Header";
 import Navbar from "./Navbar";
+import AboutMe from "./AboutMe";
 
 export {WhatIDo};
 export {Header};
