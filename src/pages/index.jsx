@@ -2,7 +2,12 @@ import React from "react"
 import '../../static/css/styles.css';
 import '../../static/css/bootstrap.css';
 import  {Helmet}  from "react-helmet"
+<<<<<<< HEAD
 import {WhatIDo} from "../components";
+=======
+import {WhatIDo, Header,Navbar} from "../components";
+
+>>>>>>> Navbar,Header to components
 
 export default () => (
  <div>
@@ -19,47 +24,9 @@ export default () => (
     {/* Font Awesome */}
     <link href="https://use.fontawesome.com//releases/v5.4.1/css/all.css" rel="stylesheet" />
   </Helmet>
-  {/* Header Area */}
-  <div id="top" className="header">
-    <div className="vert-text">
-      <img className="img-rounded" alt="Company Logo" src="/img/logo.png" />
-      <h2><em /></h2>
-      <ul className="list-inline">
-        <li><a className="link_btn1" href="https://www.facebook.com/Kovasznai-Photo-269795847306504/"> <i className="fab fa-facebook-f " /></a></li>
-        <li><a className="link_btn2" href="https://www.linkedin.com/in/bal%C3%A1zs-kov%C3%A1sznai-13652b192/"> <i className="fab fa-linkedin " /></a></li>
-        <li><a className="link_btn3" href="https://www.instagram.com/balazskovasznai/"><i className="fab fa-instagram " /></a></li>
-        <li><a className="link_btn4" href="https://500px.com/balazskovasznai"><i className="fab fa-500px " /></a></li>
-        <li><a className="link_btn5" href="mailto:kovasznaibalazs@gmail.com"><i className="far fa-envelope " /></a></li>
-      </ul>	
-      <br />
-    </div>
-  </div>
-  {/* /Header Area */}
-  <div id="nav">
-    {/* Navigation */}
-    <nav className="navbar navbar-new" role="navigation">
-      <div className="container">
-        {/* Brand and toggle get grouped for better mobile display */}
-        <div className="navbar-header">
-          <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar" />
-            <span className="icon-bar" />
-            <span className="icon-bar" />
-          </button>
-          <a href="#" className="navbar-brand">Kovasznai Photo</a>
-        </div>
-        <div className="collapse navbar-collapse" id="mobilemenu">
-          <ol className="nav navbar-nav navbar-right text-center">
-            <li><a href="#about"><i className="service-icon fa fa-info" />&nbsp;About me</a></li>
-            <li><a href="#services"><i className="fas fa-briefcase" />&nbsp;What I do</a></li>
-            <li><a href="#portfolio"><i className="service-icon fa fa-camera" />&nbsp;Portfolio</a></li>
-          </ol>
-        </div>{/* /.navbar-collapse */}
-      </div>
-    </nav>
-    {/* /Navigation */}
-  </div>	
+  <Header/>
+  <Navbar/>
+  
   {/* About */}
   <div id="about" className="about_us">
     <div className="container">
