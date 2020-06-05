@@ -2,16 +2,8 @@ import React from "react"
 import '../../static/css/styles.css';
 import '../../static/css/bootstrap.css';
 import  {Helmet}  from "react-helmet"
-<<<<<<< HEAD
-<<<<<<< HEAD
-import {WhatIDo} from "../components";
-=======
-import {WhatIDo, Header,Navbar} from "../components";
-=======
 import {WhatIDo, Header,Navbar,AboutMe,Footer} from "../components";
->>>>>>> components
 
->>>>>>> Navbar,Header to components
 
 export default () => (
  <div>
