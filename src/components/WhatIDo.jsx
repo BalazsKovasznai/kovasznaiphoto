@@ -13,7 +13,7 @@ export default () => (
       <div className="row">
         <ServiceCard 
           icon="camera-retro"
-          title="Portrait"
+          title="Human depiction"
           details={["Portrait", "Glamour", "Nude", "Fashion"]}
         />
         <ServiceCard 

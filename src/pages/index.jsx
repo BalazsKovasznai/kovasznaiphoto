@@ -13,9 +13,7 @@ export default () => (
     <meta name="description" content />
     <meta name="author" content />
     <title>Kovasznai Photo</title>
-    {/* Bootstrap core CSS */}
     <link href="css/bootstrap.css" rel="stylesheet" />
-    {/* Add custom CSS here */}
     <link href="css/slidefolio.css" rel="stylesheet" />
     {/* Font Awesome */}
     <link href="https://use.fontawesome.com//releases/v5.4.1/css/all.css" rel="stylesheet" />

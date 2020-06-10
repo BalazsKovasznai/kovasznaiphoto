@@ -2,8 +2,8 @@ import React from 'react';
 
    export default () => (
     <div id="top" className="header">
-    <div className="vert-text">
-      <img className="img-rounded" alt="Company Logo" src="/img/logo.png" />
+    <div class="col-md-6 col-md-offset-3" className="vert-text">
+      <img class="col-md-6 col-md-offset-3" className="img-rounded" alt="Company Logo" src="/img/logo.png" />
       <h2><em /></h2>
       <ul className="list-inline">
         <li><a className="link_btn1" href="https://www.facebook.com/Kovasznai-Photo-269795847306504/"> <i className="fab fa-facebook-f " /></a></li>
