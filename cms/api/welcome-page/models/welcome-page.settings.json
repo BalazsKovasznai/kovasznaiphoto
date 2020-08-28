@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "welcome_pages",
+  "info": {
+    "name": "Welcome Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "AboutMe": {
+      "type": "richtext"
+    },
+    "Slideshow": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
