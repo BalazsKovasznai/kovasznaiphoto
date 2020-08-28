@@ -5,11 +5,9 @@ export default () => {
   const data = useStaticQuery(
     graphql`
       {
-        contentfulWelcomePage {
-          slideshow {
-            fluid {
-              src
-            }
+        strapiWelcomePage {
+          Slideshow {
+            url
           }
         }
       }
@@ -21,7 +19,7 @@ export default () => {
       id="top"
       className="header"
       style={{
-        backgroundImage: `url(${data.contentfulWelcomePage.slideshow.fluid.src})`,
+        backgroundImage: `url(http://localhost:1337${data.strapiWelcomePage.Slideshow[0].url})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -37,8 +35,8 @@ export default () => {
         <h2>
           <em />
         </h2>
-        <ul className="justify-content-center" >
-          <li >
+        <ul className="justify-content-center">
+          <li>
             <a
               className="link_btn1"
               href="https://www.facebook.com/Kovasznai-Photo-269795847306504/"

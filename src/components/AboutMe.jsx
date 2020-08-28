@@ -1,15 +1,12 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-
 export default () => {
   const data = useStaticQuery(
     graphql`
       {
-        contentfulWelcomePage {
-          aboutMe {
-            aboutMe
-          }
+        strapiWelcomePage {
+          AboutMe
         }
       }
     `
@@ -21,7 +18,7 @@ export default () => {
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center">
             <h2>About me</h2>
-            <p className="lead">{data.contentfulWelcomePage.aboutMe.aboutMe}</p>
+            <p className="lead">{data.strapiWelcomePage.AboutMe}</p>
           </div>
         </div>
       </div>

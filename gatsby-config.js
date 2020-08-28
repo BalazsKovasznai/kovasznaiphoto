@@ -9,10 +9,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-contentful`,
+      resolve: "gatsby-source-strapi",
       options: {
-        spaceId: `nx9cn2z55xuh`,
-        accessToken: `8z3KoFlQM93UAkh5gIfC1nuxPIzoaS0jFub-hQLEV-w`,
+        apiURL: "http://localhost:1337",
+        singleTypes: [
+          "welcome-page",
+        ],
+        queryLimit: 1000,
       },
     },
   ],

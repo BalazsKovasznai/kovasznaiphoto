@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/what-i-do",
+      "handler": "what-i-do.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/what-i-do",
+      "handler": "what-i-do.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/what-i-do",
+      "handler": "what-i-do.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

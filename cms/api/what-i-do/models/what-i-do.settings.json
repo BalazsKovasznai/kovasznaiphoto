@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "what_i_do_s",
+  "info": {
+    "name": "What I Do "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "HumanDepiction": {
+      "type": "richtext"
+    },
+    "Sports": {
+      "type": "richtext"
+    },
+    "Events": {
+      "type": "richtext"
+    }
+  }
+}
